@@ -1,0 +1,23 @@
+テーブル名: tasks
+
+エンティティ名: Task
+
+カラム定義:
+
+id:
+
+型: BIGINT :主キー、自動採番
+
+title:
+
+型: VARCHAR(255):タスクのタイトル
+
+completed:
+
+型: BOOLEAN (Java: boolean): タスクが完了したかどうか（trueで完了、falseで未完了）
+
+due_date: (任意。今回は含めます)
+
+型: DATE (Java: LocalDate)
+
+説明: タスクの期限日
